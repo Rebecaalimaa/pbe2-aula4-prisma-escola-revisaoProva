@@ -45,4 +45,4 @@ model Matricula{
   data DateTime @db.Date @default(now())
   faz Aluno @relation(fields: [aluno], references: [ra])
   contem Disciplina @relation(fields: [disciplina], references: [id])
-}
+}     
